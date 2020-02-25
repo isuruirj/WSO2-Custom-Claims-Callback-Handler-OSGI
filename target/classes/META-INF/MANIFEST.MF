@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1582654975587
+Build-Jdk: 1.8.0_201
+Built-By: isuru
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.custom.handler
+Bundle-SymbolicName: org.wso2.custom.handler
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.carbon.identity.handler;version="1.0.0.SNAPSHOT
+ "
+Import-Package: org.osgi.service.component;version="1.2.2"
+Require-Capability: osgi.service;filter:="(objectClass=org.wso2.carbon.i
+ dentity.application.mgt.ApplicationManagementService)";effective:=activ
+ e,osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/identity.handler.xml
+Tool: Bnd-3.2.0.201605172007

@@ -1,0 +1,3 @@
+org/wso2/carbon/identity/handler/IDTokenCustomClaims.class
+org/wso2/carbon/identity/handler/internal/IDTokenCustomClaimsDataHolder.class
+org/wso2/carbon/identity/handler/internal/IDTokenCustomClaimsServiceComponent.class
